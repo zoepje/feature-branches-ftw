@@ -1,0 +1,7 @@
+.author-popup{
+  display: none;
+}
+
+.article-author #meer-info:checked ~ .author-popup{
+  display: block;
+}
