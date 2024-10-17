@@ -19,7 +19,7 @@
   </ul>
 </nav>
 
-<style webc:scoped>
+<style webc:scoped webc:keep>
   nav {
     padding-block: 1.25rem;
   }

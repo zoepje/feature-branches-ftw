@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Feature branches demo</title>
-  <style @html="this.getCSS(this.page.url)" webc:keep></style>
+  <title>{{title}}</title>
   <link rel="stylesheet" href="/css/info.css">
 </head>
 <body>
+  {% renderTemplate "webc" %}
   <navigation></navigation>
-  <main @html="this.content"></main>
+  {% endrenderTemplate %}
+  
+  <main> {{ content | safe }}</main>
 </body>
 </html>
