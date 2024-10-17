@@ -1,0 +1,5 @@
+---
+layout: "layouts/base.webc"
+---
+
+<h1>Dit is de contact pagina</h1>

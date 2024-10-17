@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feature branches demo</title>
+  <style @html="this.getCSS(this.page.url)" webc:keep></style>
+  <link rel="stylesheet" href="/css/info.css">
+</head>
+<body>
+  <navigation></navigation>
+  <main @html="this.content"></main>
+</body>
+</html>
